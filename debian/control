@@ -1,0 +1,12 @@
+Source: ros-hydro-rflex
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-angles, ros-hydro-catkin, ros-hydro-diagnostic-updater, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf
+Homepage: http://ros.org/wiki/rflex
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rflex
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-angles, ros-hydro-diagnostic-updater, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf
+Description: ROS adaptations of the RFLEX driver.
