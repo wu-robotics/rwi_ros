@@ -1,0 +1,15 @@
+<package>
+  <name>b21_description</name>
+  <version>1.1.0</version>
+  <description>b21_description</description>
+  <author>David V. Lu!!</author>
+  <maintainer email="davidvlu@gmail.com">David V. Lu!!</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/b21_description</url>
+
+  <run_depend>xacro</run_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
