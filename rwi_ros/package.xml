@@ -1,0 +1,24 @@
+<package>
+  <name>rwi_ros</name>
+  <version>1.1.0</version>
+  <description>Drivers for the robots produced by Real World Interface, Inc.</description>
+  <author>David V. Lu!!</author>
+  <maintainer email="davidvlu@gmail.com">David V. Lu!!</maintainer>
+
+  <license>GPL</license>
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/rwi</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <run_depend>b21_teleop</run_depend>
+  <run_depend>ptu46</run_depend>
+  <run_depend>b21_description</run_depend>
+  <run_depend>ptu_control</run_depend>
+  <run_depend>rflex</run_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
